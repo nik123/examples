@@ -31,3 +31,7 @@ spec:
             httpGet:
               path: /
               port: http
+          env:
+            - name: CUSTOM_VAR
+              value: {{ .Values.env.CUSTOM_VAR }}
+

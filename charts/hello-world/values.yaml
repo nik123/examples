@@ -25,3 +25,6 @@ serviceAccount:
 service:
   type: ClusterIP
   port: 80
+
+env:
+  CUSTOM_VAR: "value"
